@@ -19,17 +19,17 @@ const App = () => {
   const content = [
     { 
       id: 1, 
-      url: '/foto1.jpeg', 
+      url: 'foto1.jpeg', 
       desc: 'Selamat ulang tahun, Evita! Di hari spesial ini, semoga setiap langkahmu selalu dipenuhi keberkahan. Terima kasih telah menjadi pribadi yang luar biasa bagi orang-orang di sekitarmu.' 
     },
     { 
       id: 2, 
-      url: '/foto2.jpeg', 
+      url: 'foto2.jpeg', 
       desc: 'Teruslah bermimpi setinggi langit. Semoga segala cita-citamu dimudahkan jalannya, dan setiap kerja kerasmu membuahkan hasil yang manis di masa depan.' 
     },
     { 
       id: 3, 
-      url: '/foto3.jpeg', 
+      url: 'foto3.jpeg', 
       desc: 'Harapanku untukmu sederhana: semoga kamu selalu sehat, bahagia setiap hari, dan tidak pernah lelah untuk menebarkan kebaikan kepada siapapun.' 
     },
   ];
@@ -47,7 +47,7 @@ const App = () => {
       
       {/* 1. AUDIO ELEMENT */}
       <audio ref={audioRef} loop>
-        <source src="/rasaini.mp3" type="audio/mpeg" />
+        <source src="rasaini.mp3" type="audio/mpeg" />
       </audio>
 
       {/* 2. PROGRESS BAR */}
@@ -92,7 +92,7 @@ const App = () => {
                 <motion.img 
                   animate={{ y: [0, -20, 0] }} 
                   transition={{ repeat: Infinity, duration: 2, ease: "easeInOut" }}
-                  src="/stitch1.gif" 
+                  src="stitch1.gif" 
                   className="w-40 md:w-56 mx-auto mb-1 drop-shadow-2xl" 
                 />
                 <h1 className="text-white text-4xl md:text-7xl font-black mb-5 tracking-tighter uppercase leading-none drop-shadow-lg"> 
@@ -123,7 +123,7 @@ const App = () => {
           >
             <div className={`w-full lg:w-1/2 relative z-10 ${index % 2 !== 0 ? 'lg:order-last' : ''}`}>
               <motion.img 
-                src="/stitch1.gif"
+                src="stitch1.gif"
                 className="absolute z-30 w-20 md:w-28 -top-8 -left-4 drop-shadow-xl"
                 animate={{ y: [0, -10, 0], rotate: [0, -5, 0] }}
                 transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
