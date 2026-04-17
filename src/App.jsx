@@ -19,17 +19,17 @@ const App = () => {
   const content = [
     { 
       id: 1, 
-      url: '${import.meta.env.BASE_URL}gambar1.png', 
+      url: `${import.meta.env.BASE_URL}gambar1.png`, 
       desc: 'Selamat ulang tahun, Evita! Di hari spesial ini, semoga setiap langkahmu selalu dipenuhi keberkahan. Terima kasih telah menjadi pribadi yang luar biasa bagi orang-orang di sekitarmu.' 
     },
     { 
       id: 2, 
-      url: '${import.meta.env.BASE_URL}gambar2.png', 
+      url: `${import.meta.env.BASE_URL}gambar2.png`, 
       desc: 'Teruslah bermimpi setinggi langit. Semoga segala cita-citamu dimudahkan jalannya, dan setiap kerja kerasmu membuahkan hasil yang manis di masa depan.' 
     },
     { 
       id: 3, 
-      url: '${import.meta.env.BASE_URL}gambar3.png', 
+      url: `${import.meta.env.BASE_URL}gambar3.png`, 
       desc: 'Harapanku untukmu sederhana: semoga kamu selalu sehat, bahagia setiap hari, dan tidak pernah lelah untuk menebarkan kebaikan kepada siapapun.' 
     },
   ];
@@ -141,7 +141,7 @@ const App = () => {
                   "{item.desc}"
                 </p>
                 <motion.img 
-                  src="/stitch1.gif" 
+                  src="stitch1.gif" 
                   className="absolute -bottom-10 -right-6 w-24 md:w-32 z-20 drop-shadow-lg"
                   animate={{ y: [0, -10, 0], rotate: [0, 5, 0] }}
                   transition={{ duration: 3.5, repeat: Infinity, ease: "easeInOut" }}
@@ -158,7 +158,7 @@ const App = () => {
           className="bg-gradient-to-br from-[#0284c7] to-[#0c4a6e] p-12 md:p-20 rounded-[4rem] text-center text-white shadow-2xl relative overflow-hidden border-8 border-white/10 mt-32"
         >
           <motion.img 
-            src="/stitch1.gif" 
+            src="stitch1.gif" 
             className="absolute -bottom-6 -right-6 w-40 md:w-56 opacity-40 -rotate-12" 
             animate={{ y: [0, -10, 0] }}
             transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
