@@ -19,17 +19,17 @@ const App = () => {
   const content = [
     { 
       id: 1, 
-      url: '${import.meta.env.BASE_URL}foto1.jpeg', 
+      url: '${import.meta.env.BASE_URL}foto1.png', 
       desc: 'Selamat ulang tahun, Evita! Di hari spesial ini, semoga setiap langkahmu selalu dipenuhi keberkahan. Terima kasih telah menjadi pribadi yang luar biasa bagi orang-orang di sekitarmu.' 
     },
     { 
       id: 2, 
-      url: '${import.meta.env.BASE_URL}foto2.jpeg', 
+      url: '${import.meta.env.BASE_URL}foto2.png', 
       desc: 'Teruslah bermimpi setinggi langit. Semoga segala cita-citamu dimudahkan jalannya, dan setiap kerja kerasmu membuahkan hasil yang manis di masa depan.' 
     },
     { 
       id: 3, 
-      url: '${import.meta.env.BASE_URL}foto3.jpeg', 
+      url: '${import.meta.env.BASE_URL}foto3.png', 
       desc: 'Harapanku untukmu sederhana: semoga kamu selalu sehat, bahagia setiap hari, dan tidak pernah lelah untuk menebarkan kebaikan kepada siapapun.' 
     },
   ];
