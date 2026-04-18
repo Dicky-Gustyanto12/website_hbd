@@ -20,7 +20,7 @@ const App = () => {
     { 
       id: 1, 
       url: `${import.meta.env.BASE_URL}gambar1.png`, 
-      desc: 'Selamat ulang tahun, Evita! Di hari spesial ini, semoga setiap langkahmu selalu dipenuhi keberkahan. Terima kasih telah menjadi pribadi yang luar biasa bagi orang-orang di sekitarmu.' 
+      desc: 'Selamat ulang tahun, Evita Sayang ❤️ Di hari spesial ini, semoga setiap langkahmu selalu dipenuhi keberkahan. Terima kasih telah menjadi pribadi yang luar biasa bagi orang-orang di sekitarmu.' 
     },
     { 
       id: 2, 
@@ -103,7 +103,7 @@ const App = () => {
                   onClick={startExperience} 
                   className="px-14 py-5 bg-[#0284c7] text-white rounded-full font-black hover:scale-105 transition-all duration-300 shadow-2xl tracking-widest uppercase text-xs"
                 >
-                    Klik disini
+                    Lanjut disini
                 </button>
             </div>
           </motion.div>
@@ -166,7 +166,7 @@ const App = () => {
           <div className="relative z-10">
             <h2 className="text-5xl md:text-7xl font-black mb-6 italic tracking-tighter uppercase">Happy Birthday!</h2>
             <p className="text-blue-100 text-lg md:text-2xl max-w-2xl mx-auto font-black leading-relaxed mb-10 italic">
-                "Semoga semua cita-citamu tercapai dan kamu selalu menjadi Ohana yang membawa kebahagiaan bagi kami semua. Happy Birthday, Evita!"
+                "Semoga semua cita-citamu tercapai dan kamu selalu menjadi pribadi yang membawa kebahagiaan bagi kita semua. Happy Birthday, Evita Sayang ❤️"
             </p>
             <div className="px-10 py-3 bg-pink-500 inline-block rounded-full font-black tracking-widest uppercase text-xs animate-pulse shadow-lg">
                 Make A Wish!
