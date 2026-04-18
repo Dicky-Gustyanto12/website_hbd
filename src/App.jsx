@@ -103,7 +103,7 @@ const App = () => {
                   onClick={startExperience} 
                   className="px-14 py-5 bg-[#0284c7] text-white rounded-full font-black hover:scale-105 transition-all duration-300 shadow-2xl tracking-widest uppercase text-xs"
                 >
-                    Lanjut disini
+                    Lanjut disini, Nyalain Volume yaa ❤️
                 </button>
             </div>
           </motion.div>
